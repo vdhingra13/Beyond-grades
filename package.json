@@ -8,8 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "start": "node server.js",
-    "postinstall": "vite build"
-  },
+      },
   "dependencies": {
     "express": "^4.19.2",
     "react": "^18.2.0",
