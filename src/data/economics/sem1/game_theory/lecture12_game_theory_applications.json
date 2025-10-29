@@ -1,0 +1,117 @@
+{
+  "title": "Game Theory – Applications",
+  "description": "Applies key ideas from the Hawk–Dove, Entry Deterrence, and Repeated Games to real decision problems using α, β, and δ.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "In a Hawk–Dove game, each player can fight (Hawk) or yield (Dove). If the value of the resource is 6 and the cost of conflict is 8, what is each player’s expected payoff if both choose Hawk?",
+      "options": [
+        "–1",
+        "0",
+        "2",
+        "3"
+      ],
+      "answer": "A",
+      "explanation": "Each receives (6−8)/2 = −1 because they split the resource but both pay the conflict cost. The outcome is mutually harmful."
+    },
+    {
+      "question": "Suppose Player 1 plays Hawk with probability α and Player 2 is indifferent. If Player 2’s payoff from Hawk is 2−8α and from Dove is 6(1−α), what is α at equilibrium?",
+      "options": [
+        "0.4",
+        "0.5",
+        "0.6",
+        "0.8"
+      ],
+      "answer": "B",
+      "explanation": "Set payoffs equal: 2−8α = 6(1−α) → 2−8α = 6−6α → 2α = 4 → α = 0.5. Both randomize equally between Hawk and Dove."
+    },
+    {
+      "question": "In a symmetric Hawk–Dove equilibrium, what does the mixed strategy represent?",
+      "options": [
+        "Random conflict probability maintaining indifference",
+        "Preference for dominance",
+        "Repeated cooperation over time",
+        "No stable equilibrium"
+      ],
+      "answer": "A",
+      "explanation": "The mixed strategy α keeps each player indifferent between playing Hawk or Dove, balancing aggression and peace probabilities."
+    },
+    {
+      "question": "In an entry deterrence game, if AI Co’s entry payoff is 4−β and the incumbent’s reaction cost is 3β, what β makes the entrant indifferent between entering and staying out?",
+      "options": [
+        "1",
+        "1.5",
+        "2",
+        "3"
+      ],
+      "answer": "A",
+      "explanation": "Set entry payoff 4−β = 0 (stay out value). Solving gives β=1. A higher β means entry becomes less attractive."
+    },
+    {
+      "question": "When an incumbent commits to high output to deter entry, it is using which strategic mechanism?",
+      "options": [
+        "First-mover advantage",
+        "Dominated strategy",
+        "Capacity precommitment",
+        "Grim trigger"
+      ],
+      "answer": "C",
+      "explanation": "By building capacity before entry, the incumbent credibly threatens low post-entry prices — a precommitment device."
+    },
+    {
+      "question": "A government subsidy reducing DataCorp’s fixed cost from 6 to 3 changes the Nash equilibrium how?",
+      "options": [
+        "Entry becomes more likely",
+        "Entry becomes less likely",
+        "No effect on entry decision",
+        "Both firms exit"
+      ],
+      "answer": "A",
+      "explanation": "A subsidy raises DataCorp’s expected profit upon entry, shifting best responses toward entering the market."
+    },
+    {
+      "question": "In a repeated Prisoner’s Dilemma, cooperation can be sustained if δ ≥ threshold. If the one-time gain from defection is 4 and the future loss from punishment is 6, what is the minimum δ?",
+      "options": [
+        "0.25",
+        "0.4",
+        "0.5",
+        "0.67"
+      ],
+      "answer": "C",
+      "explanation": "Defection payoff = 4 now vs. cooperative stream δ×6/(1−δ). Cooperation stable if 6δ/(1−δ) ≥ 4 → δ ≥ 0.5."
+    },
+    {
+      "question": "If players are impatient (low δ), what happens to cooperation in repeated games?",
+      "options": [
+        "It strengthens",
+        "It weakens",
+        "It becomes dominant",
+        "It stays constant"
+      ],
+      "answer": "B",
+      "explanation": "Low δ means future rewards matter less, so the incentive to cooperate today weakens — patience supports trust."
+    },
+    {
+      "question": "The grim-trigger strategy sustains cooperation by:",
+      "options": [
+        "Rewarding after each cooperation",
+        "Forgiving occasional defection",
+        "Punishing forever after any defection",
+        "Switching randomly between cooperate and defect"
+      ],
+      "answer": "C",
+      "explanation": "Once a player defects, grim trigger switches permanently to defection, making the threat of punishment credible and severe."
+    },
+    {
+      "question": "In a trade relationship repeated infinitely, cooperation can persist if δ is high because:",
+      "options": [
+        "Future payoffs outweigh one-time cheating gains",
+        "Punishment loses effect over time",
+        "Players forget history",
+        "Short-term profit dominates"
+      ],
+      "answer": "A",
+      "explanation": "When δ is high, the value of future cooperation exceeds the short-term gain from cheating, aligning incentives to sustain trust."
+    }
+  ]
+}
