@@ -1,0 +1,3 @@
+import React from 'react'
+import { menuConfig } from '../config/menuConfig.js'
+export default function MenuTree({onSelect}){const renderNode=(node,trail=[])=>{if(node.topics){return(<div><h3>{node.title}</h3><ul>{node.topics.map(t=>(<li key={t.file} onClick={()=>onSelect({...t,trail:[...trail,node.title,t.name]})}>{t.name}</li>))}</ul></div>)} if(node.children){return(<div><h3>{node.title}</h3><ul>{node.children.map(child=>(<li key={child.title}>{renderNode(child,[...trail,node.title])}</li>))}</ul></div>)} return null};return <div>{menuConfig.map((n,i)=><div key={i}>{renderNode(n)}</div>)}</div>}

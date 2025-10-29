@@ -1,0 +1,117 @@
+{
+  "title": "Game Theory – Payoff Matrix",
+  "description": "Test your understanding of payoff matrices, reading outcomes, and best responses.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "In a 2×2 payoff matrix, each cell shows:",
+      "options": [
+        "Only Player A’s payoff",
+        "Only Player B’s payoff",
+        "Payoffs to both players under that strategy profile",
+        "Probabilities of strategies"
+      ],
+      "answer": "C",
+      "explanation": "A profile (s_A, s_B) maps to an ordered pair (u_A, u_B)."
+    },
+    {
+      "question": "If Player B chooses Column 1, Player A comparing Row 1 payoff 4 vs Row 2 payoff 2 should choose:",
+      "options": [
+        "Row 1",
+        "Row 2",
+        "Mix 50–50",
+        "Cannot say"
+      ],
+      "answer": "A",
+      "explanation": "Best response is the higher payoff: 4 > 2 → Row 1."
+    },
+    {
+      "question": "A symmetric game has:",
+      "options": [
+        "Identical payoffs under role-swap",
+        "Zero-sum outcomes",
+        "No dominant strategies",
+        "Only mixed equilibria"
+      ],
+      "answer": "A",
+      "explanation": "Role reversal leaves payoffs unchanged in symmetric games."
+    },
+    {
+      "question": "Which is TRUE for zero-sum games?",
+      "options": [
+        "u_A + u_B is constant",
+        "Both players always win",
+        "Payoffs are identical",
+        "Best responses do not exist"
+      ],
+      "answer": "A",
+      "explanation": "Zero-sum means one’s gain is the other’s loss."
+    },
+    {
+      "question": "Reading (3, 5) in a cell means:",
+      "options": [
+        "A gets 5, B gets 3",
+        "A gets 3, B gets 5",
+        "Total payoff is 8 each",
+        "No information"
+      ],
+      "answer": "B",
+      "explanation": "By convention, first is Player A’s payoff, second is Player B’s."
+    },
+    {
+      "question": "A 3×2 payoff matrix has how many strategy profiles?",
+      "options": [
+        "5",
+        "6",
+        "3",
+        "2"
+      ],
+      "answer": "B",
+      "explanation": "3 rows × 2 columns = 6 profiles."
+    },
+    {
+      "question": "The notation u_A(s_A, s_B) refers to:",
+      "options": [
+        "A’s mixed strategy",
+        "A’s payoff given strategies (s_A, s_B)",
+        "B’s payoff",
+        "Social welfare"
+      ],
+      "answer": "B",
+      "explanation": "u_A(·) is A’s utility function."
+    },
+    {
+      "question": "To find A’s best response to a given B column, A should:",
+      "options": [
+        "Pick the smallest number",
+        "Pick the largest payoff in that column for A",
+        "Average the row payoffs",
+        "Look at B’s payoffs only"
+      ],
+      "answer": "B",
+      "explanation": "Best response maximizes A’s payoff given B’s move."
+    },
+    {
+      "question": "If two cells tie for A’s best response, then:",
+      "options": [
+        "No best response exists",
+        "A has multiple best responses",
+        "It cannot be a game",
+        "B must randomize"
+      ],
+      "answer": "B",
+      "explanation": "Multiple best responses are possible when payoffs tie."
+    },
+    {
+      "question": "Payoff matrices are most useful for:",
+      "options": [
+        "Competitive strategy analysis",
+        "Linear programming",
+        "Inventory control",
+        "Exchange rate policy only"
+      ],
+      "answer": "A",
+      "explanation": "They summarize strategic interdependence."
+    }
+  ]
+}

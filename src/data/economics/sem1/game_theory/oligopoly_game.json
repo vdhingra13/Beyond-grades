@@ -1,0 +1,117 @@
+{
+  "title": "Game Theory – Oligopoly as a Game",
+  "description": "Connect oligopoly behavior (pricing/output) to strategic games.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "An oligopoly is a market with:",
+      "options": [
+        "Many small firms",
+        "A single seller",
+        "A few interdependent firms",
+        "Only state firms"
+      ],
+      "answer": "C",
+      "explanation": "Few firms; each impacts rivals."
+    },
+    {
+      "question": "Cartel behavior attempts to:",
+      "options": [
+        "Raise output and cut price",
+        "Mimic monopoly by restricting output",
+        "Create perfect competition",
+        "Randomize prices"
+      ],
+      "answer": "B",
+      "explanation": "Collusion restricts output to lift price."
+    },
+    {
+      "question": "The tension in oligopoly mirrors:",
+      "options": [
+        "Coordination without conflict",
+        "Prisoner’s Dilemma incentives",
+        "Zero-sum certainty",
+        "Pure monopoly"
+      ],
+      "answer": "B",
+      "explanation": "Cheating on collusion vs. mutual profit."
+    },
+    {
+      "question": "A duopoly has:",
+      "options": [
+        "One firm",
+        "Two firms",
+        "Three firms",
+        "Many firms"
+      ],
+      "answer": "B",
+      "explanation": "Duopoly = 2 firms."
+    },
+    {
+      "question": "A Nash equilibrium in Cournot quantity competition means:",
+      "options": [
+        "Each firm maximizes joint profit",
+        "Each firm’s quantity is a best response to the other’s",
+        "Prices are fixed by regulator",
+        "Only mixed strategies are possible"
+      ],
+      "answer": "B",
+      "explanation": "Mutual best-response outputs."
+    },
+    {
+      "question": "Why is collusion unstable without enforcement?",
+      "options": [
+        "Firms are altruistic",
+        "Each has a unilateral incentive to deviate",
+        "Demand is inelastic",
+        "Costs are identical"
+      ],
+      "answer": "B",
+      "explanation": "Short-run gain from cheating."
+    },
+    {
+      "question": "Which event is a sign of non‑cooperative behavior?",
+      "options": [
+        "Stable, high prices",
+        "Price war",
+        "Joint capacity cuts",
+        "Market‑sharing agreements"
+      ],
+      "answer": "B",
+      "explanation": "Aggressive undercutting indicates competition."
+    },
+    {
+      "question": "A real‑world oligopoly example:",
+      "options": [
+        "Wheat farming",
+        "Global smartphone OS",
+        "Local bakery market",
+        "Currency exchange booths"
+      ],
+      "answer": "B",
+      "explanation": "Android vs iOS; few dominant players."
+    },
+    {
+      "question": "Trigger strategies in repeated oligopoly can:",
+      "options": [
+        "Punish deviations to sustain collusion",
+        "Eliminate market power",
+        "Guarantee monopoly profit",
+        "Remove uncertainty entirely"
+      ],
+      "answer": "A",
+      "explanation": "Future punishment deters cheating."
+    },
+    {
+      "question": "Antitrust policy aims to:",
+      "options": [
+        "Encourage cartels",
+        "Prevent anti‑competitive collusion",
+        "Fix prices",
+        "Subsidize oligopolies"
+      ],
+      "answer": "B",
+      "explanation": "It protects competition and consumers."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "title": "Game Theory – Dominant Strategy",
+  "description": "Identify dominant strategies and understand when they exist.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "A dominant strategy for a player is one that:",
+      "options": [
+        "Maximizes the rival’s payoff",
+        "Yields the highest payoff regardless of the opponent’s move",
+        "Minimizes variance",
+        "Always cooperates"
+      ],
+      "answer": "B",
+      "explanation": "Dominance is payoff-maximization independent of opponents."
+    },
+    {
+      "question": "If A’s payoffs by rows against any column are (5 vs 3), A’s dominant choice is:",
+      "options": [
+        "Row with payoff 3",
+        "Row with payoff 5",
+        "Randomize",
+        "None"
+      ],
+      "answer": "B",
+      "explanation": "5 > 3 for every column → that row dominates."
+    },
+    {
+      "question": "Dominant strategies:",
+      "options": [
+        "Always exist",
+        "May not exist",
+        "Guarantee Pareto efficiency",
+        "Eliminate best responses"
+      ],
+      "answer": "B",
+      "explanation": "Many games don’t have dominant strategies."
+    },
+    {
+      "question": "The Prisoner’s Dilemma features:",
+      "options": [
+        "No dominant strategies",
+        "A dominant strategy for only one player",
+        "Dominant strategies for both players",
+        "Only mixed strategies"
+      ],
+      "answer": "C",
+      "explanation": "Defect/Confess dominates for both."
+    },
+    {
+      "question": "If only Player A has a dominant strategy, equilibrium will be:",
+      "options": [
+        "Impossible",
+        "Likely formed by A’s dominant action and B’s best response",
+        "Pareto optimum",
+        "Random"
+      ],
+      "answer": "B",
+      "explanation": "B best-responds to A’s dominant choice → a Nash equilibrium."
+    },
+    {
+      "question": "To detect dominance in a payoff matrix, compare A’s:",
+      "options": [
+        "Row payoffs across columns",
+        "Column payoffs across rows",
+        "Opponent’s payoffs",
+        "Averages only"
+      ],
+      "answer": "A",
+      "explanation": "Check each column, pick row with higher A payoff."
+    },
+    {
+      "question": "Which statement is FALSE?",
+      "options": [
+        "Dominant strategy simplifies decision-making",
+        "Dominant strategy may be inefficient collectively",
+        "Dominant strategy always exists",
+        "Dominant strategy is independent of the opponent’s move"
+      ],
+      "answer": "C",
+      "explanation": "Dominant strategies often do not exist."
+    },
+    {
+      "question": "If two strategies give identical payoffs in every column, then:",
+      "options": [
+        "Both dominate each other",
+        "They are equivalent for the player",
+        "Neither is a best response",
+        "Mixing strictly dominates"
+      ],
+      "answer": "B",
+      "explanation": "They are payoff-equivalent; either can be chosen."
+    },
+    {
+      "question": "Weak dominance means:",
+      "options": [
+        "A strategy is better in all cases",
+        "A strategy is at least as good in all cases and strictly better in some",
+        "Strategies are incomparable",
+        "A dominated strategy is optimal"
+      ],
+      "answer": "B",
+      "explanation": "Weakly dominant ≥ in all states, > in some."
+    },
+    {
+      "question": "Strict dominance implies that the dominated strategy is:",
+      "options": [
+        "Never a best response",
+        "Sometimes optimal",
+        "Always optimal",
+        "Equal in payoff"
+      ],
+      "answer": "A",
+      "explanation": "Strictly dominated strategies cannot be best responses."
+    }
+  ]
+}

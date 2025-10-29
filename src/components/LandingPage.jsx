@@ -1,0 +1,2 @@
+import React from 'react'
+export default function LandingPage({onStart}){return(<div style={{minHeight:'100vh',display:'flex',alignItems:'center',justifyContent:'center'}}><div className='container' style={{textAlign:'center'}}><h1 style={{fontSize:36,marginBottom:12}}>Beyond Grades – Assessment Portal</h1><p className='muted' style={{marginBottom:20}}>Explore subjects, take quizzes, and get instant feedback via email.</p><button className='btn' onClick={onStart}>Explore Subjects</button></div></div>)}

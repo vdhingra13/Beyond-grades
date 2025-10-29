@@ -1,0 +1,117 @@
+{
+  "title": "Game Theory – Repeated vs Single‑Shot Games",
+  "description": "See how repetition (δ) changes incentives and supports cooperation.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "A single‑shot game:",
+      "options": [
+        "Is played once; no future repercussions",
+        "Requires mixed strategies",
+        "Has no best responses",
+        "Always yields cooperation"
+      ],
+      "answer": "A",
+      "explanation": "No future interactions → short‑term incentives dominate."
+    },
+    {
+      "question": "δ (delta) represents:",
+      "options": [
+        "Discount factor for future payoffs",
+        "Risk aversion",
+        "Probability of success",
+        "Marginal cost"
+      ],
+      "answer": "A",
+      "explanation": "Higher δ = more weight on the future."
+    },
+    {
+      "question": "Cooperation in repeated games is more likely when:",
+      "options": [
+        "δ is low",
+        "δ is high",
+        "Players forget history",
+        "Punishments are impossible"
+      ],
+      "answer": "B",
+      "explanation": "High δ makes future rewards/punishments salient."
+    },
+    {
+      "question": "Tit‑for‑Tat works by:",
+      "options": [
+        "Always defecting",
+        "Forgiving randomly",
+        "Reciprocating last action",
+        "Maximizing short‑run payoff only"
+      ],
+      "answer": "C",
+      "explanation": "It mirrors the opponent’s previous move."
+    },
+    {
+      "question": "A grim‑trigger strategy:",
+      "options": [
+        "Ignores deviations",
+        "Punishes once then forgives",
+        "Punishes forever after any defection",
+        "Randomizes punishment length"
+      ],
+      "answer": "C",
+      "explanation": "One deviation triggers permanent punishment."
+    },
+    {
+      "question": "When δ → 1, players are:",
+      "options": [
+        "Very impatient",
+        "Myopic",
+        "Very patient",
+        "Unable to cooperate"
+      ],
+      "answer": "C",
+      "explanation": "They value future almost as much as present."
+    },
+    {
+      "question": "A finite, known‑horizon repeated PD tends to unravel by:",
+      "options": [
+        "Backward induction",
+        "Forward induction",
+        "Randomization",
+        "Dominance by cooperation"
+      ],
+      "answer": "A",
+      "explanation": "Reasoning from the last period induces defection backward."
+    },
+    {
+      "question": "Reputation effects help cooperation when:",
+      "options": [
+        "Play is anonymous and one‑shot",
+        "Histories are observable",
+        "There is no monitoring",
+        "Payoffs are zero‑sum"
+      ],
+      "answer": "B",
+      "explanation": "Observability enables punishment and trust."
+    },
+    {
+      "question": "Which is FALSE about repeated games?",
+      "options": [
+        "They allow for trigger strategies",
+        "They can sustain cooperation",
+        "They eliminate strategic uncertainty entirely",
+        "They depend on expectations about the future"
+      ],
+      "answer": "C",
+      "explanation": "Uncertainty may remain; repetition doesn’t eliminate it."
+    },
+    {
+      "question": "Real‑world example of repeated interaction fostering cooperation:",
+      "options": [
+        "Single sealed‑bid auction",
+        "Daily pricing among airlines on the same route",
+        "One‑time procurement",
+        "Anonymous online poll"
+      ],
+      "answer": "B",
+      "explanation": "Frequent interactions can avoid destructive price wars."
+    }
+  ]
+}

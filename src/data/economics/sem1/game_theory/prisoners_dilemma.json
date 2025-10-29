@@ -1,0 +1,117 @@
+{
+  "title": "Game Theory – Prisoner’s Dilemma",
+  "description": "Explore self-interest vs. collective interest; dominance and inefficiency.",
+  "total_questions": 10,
+  "questions": [
+    {
+      "question": "The payoff ranking in Prisoner’s Dilemma is:",
+      "options": [
+        "R > T > P > S",
+        "T > R > P > S",
+        "P > T > R > S",
+        "T > P > R > S"
+      ],
+      "answer": "B",
+      "explanation": "Temptation (T) > Reward (R) > Punishment (P) > Sucker’s (S)."
+    },
+    {
+      "question": "Each player’s dominant strategy is to:",
+      "options": [
+        "Cooperate",
+        "Defect",
+        "Randomize",
+        "Alternate"
+      ],
+      "answer": "B",
+      "explanation": "Defection dominates irrespective of the other’s move."
+    },
+    {
+      "question": "The Nash equilibrium outcome is:",
+      "options": [
+        "(Cooperate, Cooperate)",
+        "(Defect, Defect)",
+        "(Cooperate, Defect)",
+        "No equilibrium"
+      ],
+      "answer": "B",
+      "explanation": "(D, D) with mutual defection is NE."
+    },
+    {
+      "question": "Why is the outcome inefficient?",
+      "options": [
+        "Players lack information",
+        "(C, C) would give both higher payoffs than (D, D)",
+        "Zero-sum payoffs",
+        "Mixed strategies are required"
+      ],
+      "answer": "B",
+      "explanation": "Dominance leads to a worse joint outcome."
+    },
+    {
+      "question": "Repeated interaction can:",
+      "options": [
+        "Eliminate incentives",
+        "Sustain cooperation via trigger strategies",
+        "Force mixed equilibrium",
+        "Make payoffs identical"
+      ],
+      "answer": "B",
+      "explanation": "Future punishment threats can support cooperation."
+    },
+    {
+      "question": "Tit‑for‑Tat cooperates first and then:",
+      "options": [
+        "Always defects",
+        "Randomizes",
+        "Copies the opponent’s last move",
+        "Always cooperates"
+      ],
+      "answer": "C",
+      "explanation": "Reciprocity strategy fosters cooperation."
+    },
+    {
+      "question": "A real-world example of PD is:",
+      "options": [
+        "Price wars",
+        "Pure altruism",
+        "Barter trade",
+        "Currency peg"
+      ],
+      "answer": "A",
+      "explanation": "Undercutting is individually rational but hurts profits jointly."
+    },
+    {
+      "question": "Which policy can resolve PD in society?",
+      "options": [
+        "Ban communication",
+        "Strengthen enforcement/laws",
+        "Reduce future value (δ)",
+        "Encourage secrecy"
+      ],
+      "answer": "B",
+      "explanation": "External enforcement ensures cooperation."
+    },
+    {
+      "question": "Which statement is TRUE?",
+      "options": [
+        "PD has no dominant strategies",
+        "PD’s NE is Pareto efficient",
+        "Defection is weakly dominated",
+        "Individual rationality can harm collective welfare"
+      ],
+      "answer": "D",
+      "explanation": "That’s the dilemma’s core insight."
+    },
+    {
+      "question": "If δ is high in an infinitely repeated PD, cooperation is:",
+      "options": [
+        "Less likely",
+        "Unaffected",
+        "More likely",
+        "Impossible"
+      ],
+      "answer": "C",
+      "explanation": "Patience (high δ) raises value of future rewards/punishments."
+    }
+  ]
+}
