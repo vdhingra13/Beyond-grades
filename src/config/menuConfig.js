@@ -1,1 +1,18 @@
-export const menuConfig=[{title:'Economics',children:[{title:'Semester I',children:[{title:'Game Theory',topics:[{name:'Payoff Matrix',file:'payoff_matrix.json'},{name:'Dominant Strategy',file:'dominant_strategy.json'},{name:'Nash Equilibrium',file:'nash_equilibrium.json'},{name:"Prisoner's Dilemma",file:'prisoners_dilemma.json'},{name:'Oligopoly',file:'oligopoly_game.json'},{name:'Repeated vs Single-Shot',file:'repeated_vs_single.json'}]}]}]}]
+export const menuConfig = [{
+  title: "Economics",
+  children: [{
+    title: "Semester I",
+    children: [{
+      title: "Game Theory",
+      topics: [
+        { name: "Payoff Matrix", file: "payoff_matrix.json" },
+        { name: "Dominant Strategy", file: "dominant_strategy.json" },
+        { name: "Nash Equilibrium", file: "nash_equilibrium.json" },
+        { name: "Prisoner’s Dilemma", file: "prisoners_dilemma.json" },
+        { name: "Oligopoly", file: "oligopoly_game.json" },
+        { name: "Repeated vs Single-Shot", file: "repeated_vs_single.json" },
+        { name: "Applications", file: "lecture12_game_theory_applications.json" }
+      ]
+    }]
+  }]
+}]
